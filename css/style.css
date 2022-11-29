@@ -1,26 +1,23 @@
 html {
-    background: radial-gradient(farthest-corner at right top,#9908af, #17011a);
+    background: radial-gradient(farthest-corner at right top,#BFA2DB, #F0D9FF);
     height: 100%;
     font-family: 'Roboto', cursive;
 }
 
 .conteudo {
-    padding: 10vh 3em 0;
     display: flex;
-    align-items: flex-start;
-    gap: 2em;
+    justify-content: center;
 }
 
 .principal {
     flex-grow: 1;
     flex-basis: auto;
-    min-width: 600px;
     padding: 4em 2em 2em;
     box-sizing: border-box;
     display: flex;
-    background: #e27b26;
+    background: #F3F1F5;
     border-radius: 10px;
-    gap: 2em;
+    gap: 1em;
 }
   
 .mochila {
@@ -28,9 +25,9 @@ html {
     max-width: 170px;
     height: 180px;
     padding-top: 80px;
-    background-color: #e1c409;
-    box-shadow: inset 0 6px 0 2px #f3de55, 0 -93px 0 -77px #3b1045, 0 -93px 0 -72px #e1c409, 0 -93px 0 -68px #3b1045;
-    background-image: linear-gradient(to right, transparent 5px, transparent 20px, transparent 1px, transparent 25px, transparent 5px, transparent 20px, transparent 20px, transparent 86px, #c9b009 45px, #c9b009 230px, transparent 25px, transparent 172px );
+    background-color: #535962;
+    box-shadow: inset 0 6px 0 2px #bec2c6, 0 -93px 0 -77px #222427, 0 -93px 0 -72px #beccdd, 0 -93px 0 -68px #222427;
+    background-image: linear-gradient(to right, transparent 5px, transparent 20px, transparent 1px, transparent 25px, transparent 5px, transparent 20px, transparent 20px, transparent 86px, #3a3c3f 45px, #3a3c3f 230px, transparent 25px, transparent 172px );
     background-position: center 254px;
     background-size: 305px 6px;
     background-repeat: repeat-x; 
@@ -51,12 +48,12 @@ html {
 .mochila:before {
     height: 75px;
     width: 118px;
-    background-image: radial-gradient(circle closest-corner at 13px 29px , #ffdd00, #ffdd00 2px, transparent 2px, transparent), radial-gradient(circle closest-corner at 13px 29px , #491033, #491033 4px, transparent 4px, transparent), linear-gradient(to bottom, transparent 10px, transparent 15px, #491033 5px, #491033 18px, transparent 18px, transparent 100px), linear-gradient(to right, #c8c200 10px, #c8c200 10px, transparent 10px, transparent 16px, #c8c200 9px, #c8c200 50px), linear-gradient(to bottom, #c8c200 8px, #c8c200 16px, #491033 8px, #491033 30px, #c8c200 20px, #c8c200 72px, #c8c200 10px, #c8c200 57px, #c8c200 5%);
+    background-image: radial-gradient(circle closest-corner at 13px 29px , #909498, #909498 2px, transparent 2px, transparent), radial-gradient(circle closest-corner at 13px 29px , #222427, #222427 4px, transparent 4px, transparent), linear-gradient(to bottom, transparent 10px, transparent 15px, #222427 5px, #222427 18px, transparent 18px, transparent 100px), linear-gradient(to right, #494e55 10px, #494e55 10px, transparent 10px, transparent 16px, #494e55 9px, #494e55 50px), linear-gradient(to bottom, #494e55 8px, #494e55 16px, #222427 8px, #222427 30px, #494e55 20px, #494e55 72px, #494e55 10px, #494e55 57px, #494e55 5%);
     margin-left: 22px;
     margin-top: 58px;
-    border: 4px solid #491033;
+    border: 4px solid #222427;
     border-radius: 11px;
-    box-shadow: 0 4px 0 0 #a59006, inset 0px 4px 1px 0 #c9b009;
+    box-shadow: 0 4px 0 0 #2d2e2e, inset 0px 4px 1px 0 #bec2c6;
     content: '||';
     color: transparent;
     font-family: Comic Sans MS;
@@ -69,10 +66,10 @@ html {
 .mochila:after {
     margin-left: 67px;
     margin-top: -30px;
-    background: #40112D;
+    background: #222427;
     width:26px;
     height:26px;
-    border: 3px solid #491033;
+    border: 3px solid #222427;
     border-radius: 3px;
     transform: rotate(45deg);
 }
@@ -87,7 +84,7 @@ html {
     margin: 0.5em 0 1em;
     padding: 1em 0.5em;
     border-radius: 10px;
-    border: 2px solid #40112D;
+    border: 2px solid #222427;
 }
 
 .adicionar label {
@@ -95,25 +92,25 @@ html {
 }
 
 .cadastrar {
-    background-color: #40112D;
+    background-color: #222427;
     color: #fff;
     cursor: pointer;
 }
 
 .lista {
-    margin: 0;
+    margin-top: 2em;
     padding: 0;
 }
 
 .item {
     list-style: none;
-    padding: 0.6em 2em;
+    padding: 0.6em 1em;
     background: #fff;
     border-radius: 10px;
     margin: 0 0 1em;
     width: 100%;
     box-sizing: border-box;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     gap: 1em;
     font-size: 20px;
@@ -126,6 +123,7 @@ html {
     justify-content: center;
     width: 40px;
     height: 40px;
-    Background: #e27b26;
+    Background: #222427;
+    color: #fff;
     font-weight: 400;
 }
